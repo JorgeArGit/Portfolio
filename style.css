@@ -6,8 +6,8 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(135deg, #18122B 0%, #1a1430 100%);
-  color: #ECDFCC;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: #e0e0e0;
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -15,7 +15,7 @@ body {
 header {
   text-align: center;
   padding: 80px 20px 60px;
-  background: linear-gradient(180deg, rgba(24,18,43,0.95) 0%, rgba(24,18,43,0) 100%);
+  background: linear-gradient(180deg, rgba(26,26,26,0.95) 0%, rgba(26,26,26,0) 100%);
   position: relative;
 }
 
@@ -37,20 +37,20 @@ header {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #635985;
-  box-shadow: 0 0 30px rgba(99, 89, 133, 0.5);
+  border: 4px solid #d97706;
+  box-shadow: 0 0 30px rgba(217, 119, 6, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .perfil img:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 40px rgba(99, 89, 133, 0.7);
+  box-shadow: 0 0 40px rgba(217, 119, 6, 0.6);
 }
 
 .perfil h1 {
   font-size: 2.5em;
   font-weight: 700;
-  background: linear-gradient(135deg, #ECDFCC 0%, #635985 100%);
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -67,7 +67,7 @@ h2 {
   margin-bottom: 30px;
   font-size: 2.2em;
   font-weight: 600;
-  color: #ECDFCC;
+  color: #e0e0e0;
   position: relative;
   display: block;
 }
@@ -80,27 +80,27 @@ h2::after {
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #635985, #443C68);
+  background: linear-gradient(90deg, #f59e0b, #d97706);
   border-radius: 2px;
 }
 
 .intro {
   text-align: center;
   font-size: 1.1em;
-  color: #ECDFCC;
+  color: #e0e0e0;
   max-width: 800px;
   margin: 0 auto 40px;
   padding: 30px;
-  background: rgba(68, 60, 104, 0.35);
+  background: rgba(45, 45, 45, 0.5);
   border-radius: 16px;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(99, 89, 133, 0.3);
+  border: 1px solid rgba(120, 120, 120, 0.3);
 }
 
 .descripcion-seccion {
   text-align: center;
   font-size: 1.05em;
-  color: #635985;
+  color: #f59e0b;
   margin-bottom: 40px;
   font-style: italic;
   max-width: 800px;
@@ -122,19 +122,19 @@ h2::after {
 .proyecto {
   display: flex;
   flex-direction: column;
-  background: rgba(57, 48, 83, 0.5);
+  background: rgba(60, 60, 60, 0.5);
   border-radius: 16px;
   padding: 0;
   transition: all 0.3s ease;
-  border: 1px solid rgba(99, 89, 133, 0.3);
+  border: 1px solid rgba(120, 120, 120, 0.3);
   overflow: hidden;
   backdrop-filter: blur(10px);
 }
 
 .proyecto:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(99, 89, 133, 0.4);
-  border-color: rgba(99, 89, 133, 0.6);
+  box-shadow: 0 12px 40px rgba(217, 119, 6, 0.3);
+  border-color: rgba(217, 119, 6, 0.5);
 }
 
 .proyecto-contenido {
@@ -146,7 +146,7 @@ h2::after {
 
 .titulo-proyecto {
   font-size: 1.4em;
-  color: #ECDFCC;
+  color: #fbbf24;
   text-align: center;
   margin-bottom: 15px;
   font-weight: 600;
@@ -166,7 +166,7 @@ h2::after {
 }
 
 .proyecto p {
-  color: #ECDFCC;
+  color: #d1d1d1;
   text-align: center;
   font-size: 0.95em;
   line-height: 1.6;
@@ -178,37 +178,37 @@ h2::after {
   justify-content: center;
   gap: 15px;
   padding: 20px;
-  background: rgba(24, 18, 43, 0.6);
-  border-top: 1px solid rgba(99, 89, 133, 0.3);
+  background: rgba(26, 26, 26, 0.6);
+  border-top: 1px solid rgba(120, 120, 120, 0.3);
 }
 
 .proyecto a {
   text-decoration: none;
-  color: #ECDFCC;
+  color: #1a1a1a;
   font-weight: 600;
   padding: 8px 20px;
   border-radius: 8px;
-  background: rgba(99, 89, 133, 0.4);
+  background: rgba(251, 191, 36, 0.9);
   transition: all 0.2s ease;
   font-size: 0.95em;
 }
 
 .proyecto a:hover {
-  background: rgba(99, 89, 133, 0.6);
-  color: #ECDFCC;
+  background: rgba(245, 158, 11, 1);
+  color: #1a1a1a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(99, 89, 133, 0.3);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.4);
 }
 
 .contacto {
   text-align: center;
   padding: 60px 20px;
-  background: rgba(68, 60, 104, 0.35);
+  background: rgba(45, 45, 45, 0.5);
   border-radius: 16px;
   max-width: 700px;
   margin: 40px auto;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(99, 89, 133, 0.3);
+  border: 1px solid rgba(120, 120, 120, 0.3);
 }
 
 .contacto h2 {
@@ -217,7 +217,7 @@ h2::after {
 
 .contacto p {
   margin-bottom: 25px;
-  color: #ECDFCC;
+  color: #e0e0e0;
   font-size: 1.1em;
 }
 
@@ -232,29 +232,29 @@ h2::after {
 .contacto a {
   display: inline-block;
   text-decoration: none;
-  color: #ECDFCC;
+  color: #1a1a1a;
   font-weight: 600;
   padding: 12px 28px;
   border-radius: 10px;
-  background: rgba(99, 89, 133, 0.4);
-  border: 1px solid rgba(99, 89, 133, 0.5);
+  background: rgba(251, 191, 36, 0.9);
+  border: 1px solid rgba(245, 158, 11, 0.5);
   transition: all 0.3s ease;
 }
 
 .contacto a:hover {
-  background: rgba(99, 89, 133, 0.6);
-  color: #ECDFCC;
+  background: rgba(245, 158, 11, 1);
+  color: #1a1a1a;
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(99, 89, 133, 0.5);
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.5);
 }
 
 footer {
   text-align: center;
   padding: 30px;
-  color: #635985;
+  color: #888888;
   font-size: 0.9em;
   margin-top: 60px;
-  border-top: 1px solid rgba(99, 89, 133, 0.3);
+  border-top: 1px solid rgba(120, 120, 120, 0.3);
 }
 
 @media (max-width: 768px) {
