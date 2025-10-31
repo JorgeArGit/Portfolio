@@ -230,8 +230,12 @@ h2::after {
 }
 
 .contacto a {
-  display: inline-block;
+  display: inline-flex;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  text-align: center;
   color: #1a1a1a;
   font-weight: 600;
   padding: 12px 28px;
